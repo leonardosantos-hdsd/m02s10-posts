@@ -1,18 +1,8 @@
 {
   "compilerOptions": {
-    "forceConsistentCasingInFileNames": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "strictPropertyInitialization": false,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
-    "allowJs": true,
-
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "target": "ESNext",
-    "lib": ["ESNext"],
+    "target": "ES2023",
+    "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
 

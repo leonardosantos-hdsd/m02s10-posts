@@ -36,7 +36,7 @@ type Post = {
   createdAt: string; // ISO
 };
 
-const STORAGE_KEY = "m02s10_posts";
+const STORAGE_KEY = "m02s09_posts";
 
 function readPosts(): Post[] {
   try {

@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/m02s10-posts/",
+  base: "/m02s08-frontend-energia-solar-365/",
   server: {
     port: 5500,
     open: true,

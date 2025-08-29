@@ -23,7 +23,7 @@
 //     }
 //   }
 
-//   const rawB = localStorage.getItem("m02s10_posts");
+//   const rawB = localStorage.getItem("m02s09_posts");
 //   if (rawB) {
 //     try {
 //       const arr = JSON.parse(rawB);
@@ -55,7 +55,7 @@
 //   // Atualiza quando mudar em outra aba
 //   useEffect(() => {
 //     function onStorage(e) {
-//       if (e.key === "posts" || e.key === "m02s10_posts") {
+//       if (e.key === "posts" || e.key === "m02s09_posts") {
 //         setPosts(loadPosts());
 //       }
 //     }
@@ -164,7 +164,7 @@
 // import { useEffect, useState } from "react";
 // import Post from "./Post.jsx";
 
-// const KEYS = ["posts", "m02s10_posts", "m02s10_posts"];
+// const KEYS = ["posts", "m02s09_posts", "m02s09_posts"];
 
 // function cryptoRandom() {
 //   return `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -266,13 +266,13 @@
 // }
 
 // //
-// // ["posts","m02s10_posts","m02s10_posts"].reduce((acc,k)=> (acc[k]=localStorage.getItem(k), acc), {})
+// // ["posts","m02s09_posts","m02s09_posts"].reduce((acc,k)=> (acc[k]=localStorage.getItem(k), acc), {})
 
 // // src/components/PostsList.jsx
 // import { useEffect, useState } from "react";
 // import Post from "./Post.jsx";
 
-// // const STORAGE_KEYS = ["posts", "m02s10_posts"]; // tenta as duas
+// // const STORAGE_KEYS = ["posts", "m02s09_posts"]; // tenta as duas
 
 // // function loadRaw() {
 // //   for (const k of STORAGE_KEYS) {
@@ -305,7 +305,7 @@
 // function loadFromStorage() {
 //   // tente nas duas chaves:
 //   const a = localStorage.getItem("posts");
-//   const b = localStorage.getItem("m02s10_posts");
+//   const b = localStorage.getItem("m02s09_posts");
 //   const raw = a ?? b ?? "[]";
 //   try {
 //     return JSON.parse(raw);
@@ -371,7 +371,7 @@
 
 //     // 2) muda em OUTRAS abas (evento nativo)
 //     const onStorage = (onS) => {
-//       if (onS.key === "posts" || onS.key === "m02s10_posts") refresh();
+//       if (onS.key === "posts" || onS.key === "m02s09_posts") refresh();
 //     };
 //     window.addEventListener("storage", onStorage);
 
