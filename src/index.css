@@ -384,17 +384,13 @@ select.error {
 
 /* Espaçamento entre cada post (entre os <li>) */
 .saved-list {
-  /* já é grid; aumente o gap como quiser */
   gap: clamp(16px, 2.2vw, 28px);
 }
 
-/* Fallback se alguém mudar .saved-list para display:block */
 .saved-item + .saved-item {
   margin-top: clamp(16px, 2.2vw, 28px);
 }
 
-/* Se você usou inline-style no <li> (padding/border/background),
-   não interfere no gap, mas pode padronizar aqui: */
 .saved-item {
   padding: 0;
   border: 0;
